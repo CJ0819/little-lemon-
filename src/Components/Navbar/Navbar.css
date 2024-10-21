@@ -1,0 +1,55 @@
+.navbar {
+    background-color: #333;
+    display: flex;
+    padding: 5px;
+    align-items: center;
+    color: white;
+  }
+  .navbar img{
+    height: 40px;
+    width: auto;
+  }
+  
+  .navbar-logo {
+    font-size: 20px;
+  }
+  
+  .navbar-links {
+    justify-content: space-between;
+    display: flex;
+    padding-left: 500px;
+  }
+  
+  .navbar-links div {
+    margin-left: -50px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    padding-right: 180px;
+  }
+  
+  .navbar-links div:hover {
+    color: #ddd;
+  }
+  .order-online{
+    border:none;
+    color: white;
+    border-radius: 30px;
+    background: linear-gradient(290deg,yellow 0.40%, green 102.06%);
+    font-size: 16px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  .navbar-link {
+    margin-left: -60px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    padding-right: 180px;
+    text-decoration: none; /* Remove underline from links */
+    color: white; /* Link color */
+  }
+  
+  .navbar-link:hover {
+    color: #ddd; /* Change color on hover */
+  }
+  
