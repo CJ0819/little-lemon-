@@ -2,7 +2,8 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Navbar from './Components/Navbar/Navbar';
 import Home from './Components/Home/Home';
-import Aboutus from './Components/Aboutus/Aboutus';
+import Menu from './Components/Menu/Menu';
+
 
 const App = () => {
   return (
@@ -11,8 +12,8 @@ const App = () => {
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
-          {/* Define other routes here */}
-          <Route path="/Aboutus" element={<Aboutus/>} />
+          <Route path="/Menu" element={<Menu />} />
+         
         </Routes>
       </div>
     </Router>

@@ -1,0 +1,93 @@
+.menu {
+    text-align: center;
+    padding: 20px;
+    background-color: #f5f5f5;
+  }
+  
+  h1 {
+    font-family: 'Arial', sans-serif;
+    margin-bottom: 20px;
+  }
+  
+  .menu-items {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .menu-item {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin: 15px;
+    padding: 10px;
+    width: 200px; /* Set width for uniformity */
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .menu-image {
+    height: 200px; /* Reduced size */
+    width: 100%; /* Make images responsive */
+    border-radius: 10px;
+  }
+  
+  .item-description {
+    text-align: left;
+  }
+  
+  .item-description h2 {
+    font-size: 18px;
+    margin: 10px 0 5px;
+  }
+  
+  .item-description p {
+    font-size: 14px;
+    color: #555;
+  }
+  .menu-item:hover{
+    transform: scale(1.1);
+  }
+  .food-table {
+    width: 90%; /* Adjusted width for better spacing */
+    margin: 20px auto; /* Centered the table */
+    border-collapse: collapse;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    border-radius: 8px; /* Rounded corners */
+    overflow: hidden; /* Prevents border-radius from affecting children */
+  }
+  
+  .food-table th, .food-table td {
+    padding: 15px; /* Increased padding for better spacing */
+    text-align: left;
+    font-size: 16px; /* Adjusted font size for readability */
+    color: #333; /* Darker text color for better contrast */
+  }
+  
+  .food-table th {
+    background-color: #4CAF50; /* Green header background */
+    color: white; /* White text for headers */
+    font-weight: bold;
+  }
+  
+  .food-table tr:nth-child(even) {
+    background-color: #f9f9f9; /* Light gray for even rows */
+  }
+  
+  .food-table tr:hover {
+    background-color: #e0f7e0; /* Light green on hover */
+  }
+  
+  .food-table tr td {
+    border-bottom: 1px solid #ddd; /* Light border for rows */
+  }
+  
+  .food-table tr:last-child td {
+    border-bottom: none; /* Remove border for the last row */
+  }
+  
+  .food-table caption {
+    font-size: 24px; /* Title size for the table */
+    font-weight: bold; /* Bold caption */
+    margin: 10px 0; /* Margin around caption */
+  }
+  
